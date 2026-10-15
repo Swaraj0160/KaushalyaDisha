@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5173;
 
 // Initialize Gemini SDK on server side if API key is present
 let aiClient: GoogleGenAI | null = null;
