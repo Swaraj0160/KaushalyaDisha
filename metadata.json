@@ -1,0 +1,6 @@
+{
+  "name": "KaushalyaDisha (कौशल्यदिशा)",
+  "description": "Maharashtra-focused AI-assisted career awareness, education pathway planning, and skill development platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

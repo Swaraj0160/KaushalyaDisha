@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-marathi: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+  --color-navy: #101828;
+  --color-deep-indigo: #243B64;
+  --color-ivory: #FAF8F3;
+  --color-teal-brand: #168C86;
+  --color-saffron: #F2A541;
+  --color-slate-text: #64748B;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF8F3;
+  color: #101828;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Accessible focus ring */
+:focus-visible {
+  outline: 2px solid #168C86;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar for clean dashboard feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
